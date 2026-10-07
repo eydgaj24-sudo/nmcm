@@ -49,7 +49,6 @@ x11vnc \
   -nocursorshape \
   -cursor arrow \
   -threads \
-  -scale_cur 1 \
   > /tmp/x11vnc.log 2>&1 &
 
 X11VNC_PID=$!
